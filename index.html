@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopkeeper Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shopkeeper Platform</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Add New Product</h2>
+            <form id="product-form">
+                <label for="product-name">Product Name:</label>
+                <input type="text" id="product-name" required>
+                <label for="product-price">Price:</label>
+                <input type="number" id="product-price" required>
+                <label for="product-description">Description:</label>
+                <textarea id="product-description" required></textarea>
+                <button type="submit">Add Product</button>
+            </form>
+        </section>
+        <section>
+            <h2>Products List</h2>
+            <ul id="products-list"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
